@@ -19,7 +19,18 @@
     visibility: visible;
     opacity: 1;
 }
-
+ .summary{
+    padding-right: 5rem; 
+    font-size: 1rem; 
+    line-height: 3rem
+ }
+@media (max-width: 756px){
+    .summary{
+        padding-right: 1rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+}
 /*** Heading ***/
 h1,
 h2,
