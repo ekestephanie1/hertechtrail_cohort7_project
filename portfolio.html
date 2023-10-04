@@ -1,298 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>Portfolio Page</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta content="" name="keywords" />
-        <meta content="" name="description" />
 
-        <!-- Favicon -->
-        <link href="img/alx profile.jpg" rel="icon" />
+<head>
+    <meta charset="utf-8" />
+    <title>Portfolio Page</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap"
-            rel="stylesheet"
-        />
+    <!-- Favicon -->
+    <link href="img/alx profile.jpg" rel="icon" />
 
-        <!-- Icon Font Stylesheet -->
-        <link
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-            rel="stylesheet"
-        />
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
-            rel="stylesheet"
-        />
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap"
+        rel="stylesheet" />
 
-        <!-- Libraries Stylesheet -->
-        <link href="lib/animate/animate.min.css" rel="stylesheet" />
-        <link
-            href="lib/owlcarousel/assets/owl.carousel.min.css"
-            rel="stylesheet"
-        />
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
 
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet" />
-    </head>
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
-    <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
-        <div class="container-xxl bg-white p-0">
-            <!-- Spinner Start -->
-            <div
-                id="spinner"
-                class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
-            >
-                <div
-                    class="spinner-grow text-primary"
-                    style="width: 3rem; height: 3rem"
-                    role="status"
-                >
-                    <span class="sr-only">Loading...</span>
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0" id="home">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+
+
+                <!-- <img src="img/logo.png" alt="Logo"> -->
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="./about.html" class="nav-item nav-link">About</a>
+
+                        <a href="#" class="nav-item nav-link active">Portfolio</a>
+                    </div>
+                    <a href="./contact.html"
+                        class="btn btn-primary-gradient rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Contact</a>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Features Start -->
+
+
+
+
+        <div class="container-xxl py-5 d-lg" id="feature">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-primary-gradient fw-medium">
+                        Welcome to my Portfolio Page
+                    </h5>
+                    <h1 class="mb-5 bg-light mt-5 rounded-2">My Projects</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="feature-item bg-light rounded p-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="img/css correction day 2 and 3.png" alt="screenshot of my project">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Sign-Up Form</h5>
+                                        <p class="card-text">A sign-up form built using HTML&CSS
+                                            
+                                            <a href="https://roaring-cannoli-9da6e8.netlify.app/" class="btn btn-primary">click here to view hosted page</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="feature-item bg-light rounded p-4">
+
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="img/css profile card.png" alt="screenshot of my project">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Profile Card</h5>
+                                        <p class="card-text">A profile card of me built using HTML&CSS
+                                            <a href="https://vermillion-bavarois-395efc.netlify.app/" class="btn btn-primary">click here to view hosted page</a>
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="feature-item bg-light rounded p-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="img/tacos shop menu .png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Tacos Shop</h5>
+                                        <p class="card-text">This is a website for a Tacos store, it was built using HTML only.
+                                            <a href="#" class="btn btn-primary">click here to view hosted page</a>
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="feature-item bg-light rounded p-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="img/screenshot of e-commerce website using flexbox.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">E-commerce website</h5>
+                                        <p class="card-text">practiced how to use flexbox by building an e-commerce website.
+                                            <a href="https://chimerical-maamoul-314a2c.netlify.app/" class="btn btn-primary">click here to view hosted page</a>
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="feature-item bg-light rounded p-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="img/hyperx screenshot.png
+                                    " alt="screenshot of my project">
+                                    <div class="card-body">
+                                        <h5 class="card-title">HyperX website</h5>
+                                        <p class="card-text">A brand website with different pages
+                                            <a href="https://funny-belekoy-fbaf77.netlify.app/" class="btn btn-primary">click here to view hosted page</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
                 </div>
             </div>
-            <!-- Spinner End -->
-
-            <!-- Navbar & Hero Start -->
-            <div class="container-xxl position-relative p-0" id="home">
-                <nav
-                    class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
-                >
-                   
-                       
-                        <!-- <img src="img/logo.png" alt="Logo"> -->
-                  
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarCollapse"
-                    >
-                        <span class="fa fa-bars"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <div class="navbar-nav mx-auto py-0">
-                            <a href="index.html" class="nav-item nav-link"
-                                >Home</a
-                            >
-                            <a href="./about.html" class="nav-item nav-link"
-                                >About</a
-                            >
-
-                            <a href="#" class="nav-item nav-link active"
-                                >Portfolio</a
-                            >
-                        </div>
-                        <a
-                            href="./contact.html"
-                            class="btn btn-primary-gradient rounded-pill py-2 px-4 ms-3 d-none d-lg-block"
-                            >Contact</a
-                        >
-                    </div>
-                </nav>
-            </div>
-            <!-- Navbar & Hero End -->
-
-            <!-- Features Start -->
 
 
-
-
-            <div class="container-xxl py-5 d-lg" id="feature">
-                <div class="container py-5 px-lg-5">
-                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                          <h5 class="text-primary-gradient fw-medium">
-                          Welcome to my Portfolio Page
-                        </h5>
-                        <h1 class="mb-5 bg-light mt-5 rounded-2">My Projects</h1>
-                    </div>
-                        <div class="row g-4">
-                            <div class="row g-4">
-                                <div
-                                    class="col-lg-4 col-md-6 wow fadeInUp"
-                                    data-wow-delay="0.1s"
-                                >
-                                    <div class="feature-item bg-light rounded p-4">
-                                       <!-- <div
-                                            class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4"
-                                            style="width: 60px; height: 60px"
-                                        >
-                                            <i class="fa fa-eye text-white fs-4"></i>
-                                        </div>-->
-                                        <div class="card" style="width: 18rem;">
-                                            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-                                        <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-
-                                        </p>
-                                        </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="col-lg-4 col-md-6 wow fadeInUp"
-                                    data-wow-delay="0.3s"
-                                >
-                                    <div class="feature-item bg-light rounded p-4">
-                                      <!--  <div
-                                            class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4"
-                                            style="width: 60px; height: 60px"
-                                        >
-                                            <i
-                                                class="fa fa-layer-group text-white fs-4"
-                                            ></i>
-                                        </div>-->
-                                        <div class="card" style="width: 18rem;">
-                                            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-                                        <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-
-                                        </p>
-                                        </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="col-lg-4 col-md-6 wow fadeInUp"
-                                    data-wow-delay="0.5s"
-                                >
-                                    <div class="feature-item bg-light rounded p-4">
-                                      <!--  <div
-                                            class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4"
-                                            style="width: 60px; height: 60px"
-                                        >
-                                            <i class="fa fa-edit text-white fs-4"></i>
-                                        </div>
-                                        <h5 class="mb-3">Editable Data</h5>
-                                        <p class="m-0">
-                                            Erat ipsum justo amet duo et elitr dolor,
-                                            est duo duo eos lorem sed diam stet diam sed
-                                            stet lorem.
-                                        </p>-->
-                                   
-                                    <div class="card" style="width: 18rem;">
-                                        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
-
-                                    </p>
-                                </div>
-                                    </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="col-lg-4 col-md-6 wow fadeInUp"
-                                    data-wow-delay="0.1s"
-                                >
-                                    <div class="feature-item bg-light rounded p-4">
-                                        <!--<div
-                                            class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4"
-                                            style="width: 60px; height: 60px"
-                                        >
-                                            <i
-                                                class="fa fa-shield-alt text-white fs-4"
-                                            ></i>
-                                        </div>
-                                        <h5 class="mb-3">Fully Secured</h5>
-                                        <p class="m-0">
-                                            Erat ipsum justo amet duo et elitr dolor,
-                                            est duo duo eos lorem sed diam stet diam sed
-                                            stet lorem.
-                                        </p>--> 
-                                        <div class="card" style="width: 18rem;">
-                                        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-                                        <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-    
-                                        </p>
-                                    </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="col-lg-4 col-md-6 wow fadeInUp"
-                                    data-wow-delay="0.3s"
-                                >
-                                    <div class="feature-item bg-light rounded p-4">
-                                        <!--<div
-                                            class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4"
-                                            style="width: 60px; height: 60px"
-                                        >
-                                            <i class="fa fa-cloud text-white fs-4"></i>
-                                        </div>
-                                        <h5 class="mb-3">Cloud Storage</h5>
-                                        <p class="m-0">
-                                            Erat ipsum justo amet duo et elitr dolor,
-                                            est duo duo eos lorem sed diam stet diam sed
-                                            stet lorem.
-                                        </p>-->
-                                        <div class="card" style="width: 18rem;">
-                                            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-                                        <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-    
-                                        </p>
-                                    </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="col-lg-4 col-md-6 wow fadeInUp"
-                                    data-wow-delay="0.5s"
-                                >
-                                    <div class="feature-item bg-light rounded p-4">
-                                        <!--<div
-                                            class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4"
-                                            style="width: 60px; height: 60px"
-                                        >
-                                            <i
-                                                class="fa fa-mobile-alt text-white fs-4"
-                                            ></i>
-                                        </div>
-                                        <h5 class="mb-3">Fully Responsive</h5>
-                                        <p class="m-0">
-                                            Erat ipsum justo amet duo et elitr dolor,
-                                            est duo duo eos lorem sed diam stet diam sed
-                                            stet lorem.
-                                        </p>-->
-                                        <div class="card" style="width: 18rem;">
-                                            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-                                        <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-    
-                                        </p>
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                        
-                   
             <!-- Features End -->
 
             <!-- Footer Start -->
-            <div
-                class="container-fluid bg-primary text-light footer wow fadeIn"
-                data-wow-delay="0.1s"
-            >
+            <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
                 <div class="container py-5 px-lg-5">
                     <div class="row g-5">
                         <div class="col-md-12 col-lg-12">
@@ -304,39 +175,28 @@
                                 </p>
                                 <p>
                                     <a href="tel:+2347025565226" class="text-white">
-                                   
-                                    <i class="fa fa-phone-alt me-3"></i> Phone
-                                </a>
+
+                                        <i class="fa fa-phone-alt me-3"></i> Phone
+                                    </a>
                                 </p>
                                 <p>
                                     <a href="mailto:ekestephanie123@gmail.com" class="text-white">
-                                    <i class="fa fa-envelope me-3"></i> Email
-                                 
-                                </a>
+                                        <i class="fa fa-envelope me-3"></i> Email
+
+                                    </a>
                                 </p>
                             </div>
 
                             <div class="d-flex pt-2 gap-3">
-                                <a
-                                    class="btn btn-outline-light btn-social"
-                                    href="https://twitter.com/@stef_eke"
-                                    ><i class="fab fa-twitter"></i
-                                ></a>
-                                <a
-                                    class="btn btn-outline-light btn-social"
-                                    href="https://github.com/ekestephanie1"
-                                    ><i class="fab fa-github"></i
-                                ></a>
-                                <a
-                                    class="btn btn-outline-light btn-social"
-                                    href="https://www.instagram.com/Steph_eke"
-                                    ><i class="fab fa-instagram"></i
-                                ></a>
-                                <a
-                                    class="btn btn-outline-light btn-social"
-                                    href="https://www.linkedin.com/in/stephanie-eke"
-                                    ><i class="fab fa-linkedin-in"></i
-                                ></a>
+                                <a class="btn btn-outline-light btn-social" href="https://twitter.com/@stef_eke"><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-light btn-social" href="https://github.com/ekestephanie1"><i
+                                        class="fab fa-github"></i></a>
+                                <a class="btn btn-outline-light btn-social"
+                                    href="https://www.instagram.com/Steph_eke"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-outline-light btn-social"
+                                    href="https://www.linkedin.com/in/stephanieeke/"><i
+                                        class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
@@ -344,25 +204,13 @@
                 <div class="container px-lg-5">
                     <div class="copyright">
                         <div class="row">
-                            <div
-                                class="col-md-6 text-center text-md-start mb-3 mb-md-0"
-                            >
+                            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                                 &copy;
-                                <a class="border-bottom" href="#"
-                                    >Hertechtrail cohort 7 project.</a
-                                >
+                                <a class="border-bottom" href="#">Hertechtrail cohort 7 project.</a>
                                 Designed By
-                                <a
-                                    class="border-bottom"
-                                    href="https://htmlcodex.com"
-                                    >Eke Stephanie.</a
-                                >
+                                <a class="border-bottom" href="#">Eke Stephanie.</a>
                             </div>
-                            <div class="col-md-6 text-center text-md-end">
-                                <div class="footer-menu">
-                                    <a href="">Home</a>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -370,9 +218,7 @@
             <!-- Footer End -->
 
             <!-- Back to Top -->
-            <a href="#" class="btn btn-lg btn-lg-square back-to-top pt-2"
-                ><i class="bi bi-arrow-up text-white"></i
-            ></a>
+            <a href="#" class="btn btn-lg btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up text-white"></i></a>
         </div>
 
         <!-- JavaScript Libraries -->
@@ -386,5 +232,6 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
-    </body>
+</body>
+
 </html>
