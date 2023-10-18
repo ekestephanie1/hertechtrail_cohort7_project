@@ -1,7 +1,18 @@
+:root {
+  --primary: #4294e3;
+  --secondary: rgb(66, 6, 6);
+  --light: #f0f6ff;
+  --dark: #262b47;
+}
 
 nav {
-    background-color: #6d4df2;
+  background: linear-gradient(
+        to bottom right,
+        var(--primary),
+        var(--secondary)
+    );
 }
+
 
   #connect{
  text-align: center;
